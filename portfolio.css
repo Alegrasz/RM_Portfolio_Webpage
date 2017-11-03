@@ -1,0 +1,199 @@
+#spaceout{
+  margin: 20px;
+} 
+#big{
+  font-size: 50px;
+}
+nav.navbar{
+  position: fixed;
+  z-index: 99999999;
+  top: 7px;
+  left: 2.3%;
+  width:95%;
+}
+
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+#new-font{
+  font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.box {
+  height: 650px;
+  width: 100%;
+  background: #3498DB;
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+/* The Tan-ish box */
+.secondBox {
+  background: #FCC29A;
+  height:600px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+/* This the blue box*/
+.thirdBox {
+  background: #33425B;
+  width: 100%;
+  position: relative;
+  padding-top: 20px;
+}
+
+i{
+ font-size: 25px; 
+}
+
+div.center-box {
+  text-align: center;
+   vertical-align: middle;
+  margin-top: -16px;
+  padding: 15px;
+  background: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.content {
+  background: white;
+  width: 80%;
+  height: 400px;
+  margin: auto;
+  overflow: auto;
+}
+
+#fix-secondBox {
+  margin-top: 30px;
+  border-radius: 20px;
+  animation-name: second-Box;
+  animation-delay: 1s;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  position: relative;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+@keyframes second-Box {
+  from {
+    left: -500px;
+    opacity: 0;
+  }
+  to {
+    left: 0;
+    opacity: 1;
+  }
+}
+
+#fix-box {
+  width: 40%;
+  margin-top: 25px;
+  float: left;
+  margin-left: 5%;
+  height: 65%;
+  border-radius: 20px;
+  animation-name: slideinbox;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  position: relative;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  padding: 30px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+@keyframes slideinbox {
+  from {
+    left: -500px;
+    opacity: 0;
+  }
+  to {
+    left: 0;
+    opacity: 1;
+  }
+}
+
+.text{
+ width: 25%;
+  height:95%;
+ color: white;
+ text-decoration: none;
+ margin: 100px;
+}
+
+#contact-box{
+ 
+  width: 80%;
+  height: 98%;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: -20px;
+  margin: 0 auto;
+}
+
+div.center{
+  margin: 0 auto;
+  height: 98%;
+}
+
+button{
+  border-radius: 50%;
+  font-size: 50px;
+  border-style: none;
+  padding: 5px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  margin: 50px;
+  margin-top: 25px;
+  text-align:center;
+}
+
+button:hover{
+ transform: rotate(-360deg);
+ -webkit-transform: rotate(-360deg);
+ -ms-transform: rotate(-360deg);
+ cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button.change-color:nth-of-type(1):hover{
+  background-color: #3b5998;
+  color: white;
+  border-color: white;
+  border-style:solid;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+button.change-color:nth-of-type(2):hover{
+  background-color: #4499FF;
+  color:white;
+  border-color: white;
+  border-style:solid;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+button.change-color:nth-of-type(3):hover{
+  background-color: #45668E;
+  color: white;
+  border-color: white;
+  border-style:solid;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+button.change-color:hover:after{
+  -ms-transform: scale(1.1, 1.1);
+  -webkit-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
+}
+
+.master{
+    height: 100%;
+    width: 100%;
+}
